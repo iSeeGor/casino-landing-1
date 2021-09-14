@@ -13,6 +13,16 @@
 	display: none;
 }
 
+.d-flex {
+
+	display: flex;
+}
+
+.flex-column-reverse {
+
+	flex-direction: column-reverse !important;
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
 

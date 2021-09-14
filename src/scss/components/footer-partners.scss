@@ -1,0 +1,18 @@
+.partners	{
+
+	padding: 14px 0;
+	border-top: 1px solid #454798;
+	border-bottom: 1px solid #454798;
+
+	&__list {
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__item {
+
+		margin: 0 22px;
+	}
+}

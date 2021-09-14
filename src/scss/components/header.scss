@@ -23,3 +23,71 @@
 		gap: 20px;
 	}
 }
+
+@media (max-width: 1199.98px){
+	
+	.header {
+
+		padding: 20px 0;
+
+		&__auth {
+
+			gap: 18px;
+		}
+	}
+}
+
+@media (max-width: 991.98px){
+	
+	.header {
+
+		padding: 18px 0;
+
+		&__auth {
+
+			gap: 16px;
+		}
+	}
+}
+
+@media (max-width: 767.98px){
+	
+}
+
+@media (max-width: 575.98px){
+	
+	.header {
+
+		padding: 16px 0;
+
+		&__auth {
+
+			gap: 14px;
+		}
+	}
+}
+
+@media (max-width: 480.98px){
+	
+	.header {
+
+		padding: 14px 0;
+
+		&__auth {
+
+			gap: 12px;
+		}
+	}
+}
+
+@media (max-width: 374px){
+	
+	.header {
+
+
+		&__auth {
+
+			gap: 10px;
+		}
+	}
+}

@@ -1,4 +1,6 @@
 
+
+
 h1,
 h2,
 h3,
@@ -61,7 +63,7 @@ a {
 
 .typography {
 
-	color: $colorBlack;
+	color: $colorWhite;
 
 	> * {
 
@@ -127,21 +129,21 @@ a {
 	a {
 
 		text-decoration: underline;
-		color: $colorBody;
+		color: $colorWhite;
 		font-weight: $medium;
 		transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 
 		&:hover {
 
 			text-decoration: none;
-			color: $colorBody;
+			color: $colorWhite;
 		}
 	}
 
 	p {
 		margin: 15px 0 15px;
 		font-size: 16px;
-		color: $colorBlack;
+		color: $colorWhite;
 
 		img {
 
