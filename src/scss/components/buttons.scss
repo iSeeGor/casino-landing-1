@@ -74,6 +74,7 @@
 		justify-content: center;
 		align-items: center;
 	}
+	
 }
 
 @media (max-width: 1199.98px){
@@ -83,6 +84,12 @@
 		font-size: 18px;
 		padding: 11px 34px;
 		border-radius: 8px;
+
+		&--large {
+
+			min-width: 240px;
+			height: 54px;
+		}
 	}
 }
 
@@ -92,6 +99,13 @@
 
 		font-size: 16px;
 		padding: 10px 30px;
+
+		&--large {
+
+			min-width: 200px;
+			height: 48px;
+			font-size: 16px;
+		}
 	}
 }
 
@@ -102,6 +116,11 @@
 		font-size: 14px;
 		padding: 8px 24px;
 		border-radius: 6px;
+
+		&--large {
+
+			font-size: 16px !important;
+		}
 	}
 }
 
@@ -112,6 +131,7 @@
 		font-size: 12px;
 		padding: 6px 18px;
 		border-radius: 4px;
+		
 	}
 	
 }
@@ -122,6 +142,13 @@
 
 		font-size: 10px;
 		padding: 5px 14px;
+
+		&--large {
+
+			min-width: 160px;
+			height: 44px;
+			font-size: 14px  !important;
+		}
 	}
 }
 
@@ -131,6 +158,13 @@
 
 		font-size: 8px;
 		padding: 6px 12px 5px;
+
+		&--large {
+
+			min-width: 140px;
+			height: 40px;
+			font-size: 12px  !important;
+		}
 	}
 }
 

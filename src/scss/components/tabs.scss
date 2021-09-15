@@ -26,11 +26,16 @@
 		&:not(.active) {
 
 			cursor: pointer;
+			
 			&:hover {
 
 				color: white;
-				text-decoration: none;
 			}
+		}
+
+		&:hover {
+
+			text-decoration: none;
 		}
 
 		.svg {
@@ -55,7 +60,6 @@
 
 	&__content {
 
-		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 30px;
 		display: none;
@@ -63,6 +67,199 @@
 		&.active {
 
 			display: grid;
+		}
+	}
+}
+
+@media (max-width: 1199.98px){
+	
+	.tabs {
+
+		&__button {
+
+			font-size: 14px;
+			padding: 14px 16px;
+
+			.svg {
+
+				flex: 0 0 auto;
+				width: 24px;
+    			height: 24px;
+			}
+
+			&.active {
+
+				padding: 18px 24px 18px 22px;
+			}
+		}
+
+		&__body {
+
+			padding: 30px 30px;
+		}
+		
+	}
+}
+
+@media (max-width: 991.98px){
+
+	.tabs {
+
+		&__header {
+
+			white-space: nowrap;
+			margin-bottom: 14px;
+			overflow-x: scroll;
+			padding-bottom: 4px;
+		}
+
+		&__button {
+
+			font-size: 13px;
+			padding: 8px 12px;
+			border-radius: 6px;
+
+			.svg {
+
+				width: 20px;
+    			height: 20px;
+			}
+
+			&.active {
+
+				padding: 10px 20px 10px 18px;
+			}
+		}
+
+		&__body {
+
+			padding: 26px 26px;
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+		}
+
+		&__content {
+
+			gap: 26px;
+		}
+	}
+	
+}
+
+@media (max-width: 767.98px){
+	.tabs {
+
+		&__button {
+
+			font-size: 12px;
+			border-radius: 4px;
+
+			.svg {
+
+				width: 18px;
+    			height: 18px;
+				margin-right: 6px;
+			}
+
+			&.active {
+
+				padding: 8px 18px 8px 16px;
+			}
+		}
+
+		&__body {
+
+			padding: 22px 22px;
+		}
+
+		&__content {
+
+			grid-template-columns: 1fr 1fr;;
+			gap: 22px;
+		}
+	}
+}
+
+@media (max-width: 575.98px){
+	
+	.tabs {
+
+		&__body {
+
+			padding: 20px 20px;
+		}
+
+		&__content {
+
+			gap: 20px;
+		}
+	}
+}
+
+@media (max-width: 480.98px){
+	
+	.tabs {
+
+		margin: 0 -10px;
+
+		&__body {
+
+			padding: 18px 18px;
+		}
+
+		&__content {
+
+			gap: 18px;
+		}
+	}
+}
+
+@media (max-width: 374px){
+	
+	.tabs {
+
+		&__button {
+
+			font-size: 11px;
+			padding: 6px 12px;
+
+			.svg {
+
+				width: 14px;
+    			height: 14px;
+				margin-right: 4px;
+			}
+
+			&.active {
+
+				padding: 6px 14px 6px 12px;
+			}
+		}
+
+		&__body {
+
+			padding: 16px 16px;
+		}
+
+		&__content {
+
+			gap: 16px;
+		}
+	}
+}
+
+@media (max-width: 350px){
+	
+	.tabs {
+
+		&__body {
+
+			padding: 14px 14px;
+		}
+
+		&__content {
+
+			gap: 14px;
 		}
 	}
 }
