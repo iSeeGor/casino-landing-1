@@ -72,15 +72,15 @@
 		<!-- header end -->
 
 		<!-- content start -->
-			<main class="site-content">
+			<main class="site-content site-content--reverse">
 
 				<!-- typography sections start -->
 				
 					<section class="section section--typography">
 						<div class="container typography">
-							<h1> H1 Lorem ipsum dolor sit amet consectetur.</h1>
-							<h2> H2 Lorem ipsum dolor sit amet consectetur.</h2>
-							<h3> H3 Lorem ipsum dolor sit amet consectetur.</h3>
+							<h1> H1 Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</h1>
+							<h2> H2 Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</h2>
+							<h3> H3 Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</h3>
 
 							<p>Lorem <a href="#">ipsum dolor sit</a>, amet consectetur adipisicing elit. Reiciendis, quo voluptas optio facere illum magni quasi nostrum quos eveniet soluta tenetur earum reprehenderit sequi? Suscipit placeat numquam reiciendis quasi quibusdam.</p>
 
@@ -88,7 +88,7 @@
 
 							<ul>
 								<li>Lorem ipsum dolor sit.</li>
-								<li>Lorem ipsum dolor sit.</li>
+								<li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in aut pariatur iste ipsa! Nulla, delectus porro? Recusandae, iste animi.</li>
 								<li>Lorem ipsum dolor sit.</li>
 								<li>Lorem ipsum dolor sit.</li>
 								<li>Lorem ipsum dolor sit.</li>
@@ -203,20 +203,42 @@
 						</div>
 					</section>
 
+					<section class="section section--typography">
+						<div class="container typography">
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est officiis necessitatibus rem quibusdam, dolorum minus quam nulla accusantium, incidunt quas quos cum ad eveniet sed laboriosam commodi hic soluta laudantium recusandae sequi tenetur minima nesciunt ut eligendi? Atque culpa tenetur nesciunt praesentium commodi repudiandae totam, facilis quia blanditiis vel eum voluptas quaerat vitae deleniti nobis laudantium eaque delectus cum voluptatum iure deserunt excepturi? Officia fugit nihil, optio, minima aut, ab reprehenderit animi nulla ut est perspiciatis non dicta doloribus possimus nobis error numquam adipisci eius vel dolores odit nisi assumenda debitis. Vitae culpa molestias voluptas repellat tenetur ex officia perferendis!</p>
+						</div>
+					</section>
+
 				<!-- typography sections end -->
 
-				<!-- banner start -->
-					<div class="front-slider">
+				<!-- bonus section start -->
+					<section class="section">
 						<div class="container">
-							<a href="#" class="front-slider__item">
-								<picture>
-									<source media="(max-width: 767px)" srcset="assets/img/front-slide-mob.jpg">
-									<img src="assets/img/front-slide.jpg" alt="Главный слайд" loading="lazy">
-								</picture>
-							</a>
+							<header class="section__header">
+								<h2 class="section__title">ежедневные бонусы на счёт</h2>
+							</header>
+						
+							<div class="bonus-grid">
+								<div class="bonus-card">
+									<div class="bonus-card__image">
+										<picture>
+											<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/img/bonus-image-01.jpg" alt="Bonus title">
+										</picture>
+									</div>
+									<a href="#" class="button-primary button-primary--large">Детали</a>
+								</div>
+								<div class="bonus-card">
+									<div class="bonus-card__image">
+										<picture>
+											<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/img/bonus-image-02.jpg" alt="Bonus title">
+										</picture>
+									</div>
+									<a href="#" class="button-primary button-primary--large">Детали</a>
+								</div>
+							</div>
 						</div>
-					</div>
-				<!-- banner end -->
+					</section>
+				<!-- bonus section end -->
 
 				<!-- games start -->
 					<section class="section">
@@ -656,34 +678,18 @@
 					</section>
 				<!-- games end -->
 
-				<!-- bonus section start -->
-					<section class="section">
+				<!-- banner start -->
+					<div class="front-slider">
 						<div class="container">
-							<header class="section__header">
-								<h2 class="section__title">ежедневные бонусы на счёт</h2>
-							</header>
-						
-							<div class="bonus-grid">
-								<div class="bonus-card">
-									<div class="bonus-card__image">
-										<picture>
-											<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/img/bonus-image-01.jpg" alt="Bonus title">
-										</picture>
-									</div>
-									<a href="#" class="button-primary button-primary--large">Детали</a>
-								</div>
-								<div class="bonus-card">
-									<div class="bonus-card__image">
-										<picture>
-											<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/img/bonus-image-02.jpg" alt="Bonus title">
-										</picture>
-									</div>
-									<a href="#" class="button-primary button-primary--large">Детали</a>
-								</div>
-							</div>
+							<a href="#" class="front-slider__item">
+								<picture>
+									<source media="(max-width: 767px)" srcset="assets/img/front-slide-mob.jpg">
+									<img src="assets/img/front-slide.jpg" alt="Главный слайд" loading="lazy">
+								</picture>
+							</a>
 						</div>
-					</section>
-				<!-- bonus section end -->
+					</div>
+				<!-- banner end -->
 
 			</main>
 		<!-- content end -->
